@@ -1,0 +1,138 @@
+@media (max-width: 1400px) {
+  .nav__link {
+    margin-left: 12px;
+  }
+}
+@media (max-width: 1200px) {
+  .news__img {
+    height: 150px;
+    margin-bottom: 130px;
+  }
+  .news__bottom {
+    top: calc(100% - 130px);
+  }
+  .news__name {
+    font-size: 16px;
+    height: 130px;
+  }
+
+  .news-item .news__wrap {
+    flex-direction: column;
+  }
+  .news-item .news__item {
+    width: 100%;
+    margin-left: 0 !important;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 992px) {
+  .app {
+    padding-top: 30px;
+  }
+
+  .nav__company {
+    padding: 20px 0;
+    border: none;
+  }
+  .nav__company span {
+    font-size: 20px;
+  }
+
+  #app {
+    padding-top: 30px;
+  }
+
+  .offer__img {
+    height: 350px;
+  }
+
+  .wide-col {
+    margin-right: 0;
+  }
+
+  .short-col {
+    margin-top: 8px;
+  }
+
+  .side-bar__wrap {
+    height: 300px;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  .hidden {
+    width: 80%;
+    left: -80%;
+  }
+
+  .news__wrap {
+    flex-direction: column;
+  }
+  .news__item {
+    width: 100%;
+    margin-left: 0 !important;
+    margin-bottom: 20px;
+  }
+
+  .category__item {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 40px;
+  }
+  .category__img {
+    margin-bottom: 20px;
+    width: 140px;
+  }
+  .category__name {
+    font-size: 18px;
+  }
+  .category__desc {
+    font-size: 16px;
+  }
+
+  .news-item .offer__slider .slick-slide {
+    height: 300px;
+  }
+}
+@media (max-width: 578px) {
+  h1 {
+    font-size: 26px;
+  }
+
+  .hidden {
+    width: 100%;
+    left: -100%;
+  }
+
+  .wide-col {
+    padding: 30px 20px;
+  }
+
+  .offer {
+    overflow: hidden;
+  }
+  .offer__wrap {
+    padding: 0;
+  }
+
+  .news .container {
+    padding: 40px 10px;
+  }
+  .news__bottom {
+    top: calc(100% - 130px) !important;
+  }
+
+  .news-item__related .news__img {
+    height: 150px;
+    margin-bottom: 130px;
+  }
+
+  .news-item .offer__slider .slick-slide {
+    height: 200px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

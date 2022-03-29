@@ -110,9 +110,9 @@ $(document).ready(function(){
         $('.hidden').removeClass('show')
     })
 })
-
-let i = 1;
-let incerment = true;
-let timerId = setInterval(function (){
-    (i<10 && incerment) ? console.log(i++) : ((i>0) ? (console.log(i--), incerment=false) : clearInterval(timerId) )
-}, 100);
+//
+// let i = 1;
+// let incerment = true;
+// let timerId = setInterval(function (){
+//     (i<10 && incerment) ? console.log(i++) : ((i>0) ? (console.log(i--), incerment=false) : clearInterval(timerId) )
+// }, 100);

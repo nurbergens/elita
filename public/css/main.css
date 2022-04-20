@@ -623,6 +623,13 @@ section {
   margin-bottom: 150px;
 }
 
+.about {
+  margin-top: 40px;
+}
+.about .container {
+  min-height: 300px;
+}
+
 .category {
   margin-top: 40px;
 }

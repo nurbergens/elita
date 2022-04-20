@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AboutController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\NewsController;
@@ -20,3 +21,5 @@ Route::get('/news/{current_news}', [NewsController::class, 'show'])->name('news.
 Route::get('/news', [NewsController::class, 'search'])->name('news.search');
 
 Route::get('/category/{category}', [CategoryController::class, 'index'])->name('category.index');
+
+Route::get('/about', [AboutController::class, 'index'])->name('about');

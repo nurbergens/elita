@@ -138,7 +138,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="nav__link">
+                    <a href="{{ route('about') }}" class="nav__link">
                         Компания туралы
                     </a>
                 </li>

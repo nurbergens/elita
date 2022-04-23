@@ -33,7 +33,7 @@ class NewslistLayout extends Table
                 ->render(function ($model) {
                     return "<img src=' $model->preview_image' alt='image' class='img-fluid'>";
                 }),
-            TD::make('title', 'Title!')
+            TD::make('title', 'Title')
                 ->width('20%')
                 ->sort()
                 ->filter(Input::make())

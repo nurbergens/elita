@@ -5,11 +5,11 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Elita.kz</title>
+    <title>Tizgin.kz</title>
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Elite.kz">
-    <meta property="og:title" content="Elite.kz">
-    <meta property="og:description" content="Elita.kz ақпараттық порталы">
+    <meta property="og:site_name" content="Tizgin.kz">
+    <meta property="og:title" content="Tizgin.kz">
+    <meta property="og:description" content="Tizgin.kz ақпараттық порталы">
     <meta property="og:url" content="">
     <meta property="og:locale" content="ru_RU">
     <meta property="og:image" content="img/header-bg.jpg">
@@ -28,15 +28,15 @@
     <div class="hidden">
         <div class="hidden__wrap">
             <div class="hidden__langs">
-        <span class="active">
-            Ru
-        </span>
-                <span> |
-            En
-        </span> |
-                <span>
-            kz
-        </span>
+{{--        <span class="active">--}}
+{{--            Ru--}}
+{{--        </span>--}}
+{{--                <span> |--}}
+{{--            En--}}
+{{--        </span> |--}}
+{{--                <span>--}}
+{{--            kz--}}
+{{--        </span>--}}
             </div>
             <div class="hidden__menu nav__menu">
                 <li>
@@ -90,7 +90,7 @@
                         </div>
                     </div>
                     <span>
-                        Elita.kz ақпараттық порталы
+                        Tizgin.kz ақпараттық порталы
                     </span>
                     <div></div>
                 </div>
@@ -151,7 +151,7 @@
         </div>
         <div class="footer__row">
             <div class="footer__credits">
-                2022 © elita.kz ақпараттық-сараптамалық порталы
+                2022 © tizgin.kz ақпараттық-сараптамалық порталы
             </div>
             <div class="footer__media media">
                 <a href="#" class="media__item">

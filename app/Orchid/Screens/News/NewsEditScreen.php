@@ -100,7 +100,7 @@ class NewsEditScreen extends Screen
         return [
             Layout::rows([
                 Input::make('news.title')
-                    ->title('Title')
+                    ->title('Название')
                     ->required(),
                 TextArea::make('news.description')
                     ->title('Description')
@@ -110,7 +110,7 @@ class NewsEditScreen extends Screen
                     ->required(),
                 CheckBox::make('news.is_main')
                     ->sendTrueOrFalse()
-                    ->title('Main news'),
+                    ->title('Главная новость'),
                 DateTimer::make('news.publication_date')
                     ->title('Дата публикаций')
                     ->allowInput()
@@ -120,6 +120,7 @@ class NewsEditScreen extends Screen
 
                 Select::make('news.category_id')
                     ->empty('Не выбрано')
+                    ->title('Категория')
                     ->fromModel(Category::class, 'title')
                     ->required(),
 
@@ -130,6 +131,8 @@ class NewsEditScreen extends Screen
 
                 Picture::make('news.preview_image')
                     ->required(),
+                Input::make('news.image_text')
+                    ->title('Ссылка на изображение')
             ])
         ];
     }

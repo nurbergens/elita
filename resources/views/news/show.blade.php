@@ -29,11 +29,17 @@
                         <div class="offer__slider">
                             <div>
                                 <img src="{{ url($news->preview_image) }}" alt="News" class="news-item__img">
+                                <span class="news-item__img-text">
+                                    Фото: {{ $news->image_text }}
+                                </span>
                             </div>
                             @if(count($news->images))
                                 @foreach($news->images as $image)
                                     <div>
                                         <img src="{{ url($image->url) }}" alt="News" class="news-item__img">
+                                        <span class="news-item__img-text">
+                                            Фото: {{ $news->image_text }}
+                                        </span>
                                     </div>
                                 @endforeach
                             @endif

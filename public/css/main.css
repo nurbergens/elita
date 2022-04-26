@@ -597,6 +597,13 @@ section {
   margin-bottom: 0px;
   border-radius: 5px;
 }
+.news-item__img-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #e4e4e4;
+  padding: 2px 10px;
+}
 .news-item__text p {
   margin-bottom: 0;
 }

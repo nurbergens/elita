@@ -17,7 +17,8 @@ class News extends Model
         'category_id',
         'tag_id',
         'preview_image',
-        'publication_date'
+        'publication_date',
+        'image_text'
     ];
 
     protected $allowedSorts = [

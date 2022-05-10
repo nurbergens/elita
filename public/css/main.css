@@ -549,6 +549,9 @@ section {
   font-size: 12px;
   line-height: 1.1em;
 }
+.footer__info_item {
+  margin-bottom: 5px;
+}
 
 .media {
   display: flex;

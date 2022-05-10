@@ -145,13 +145,13 @@
         <div class="footer__row">
             <div class="footer__info">
                 <div class="footer__info_item">
-                    <a href="wa.me/+77072192240">
+                    <a href="https://wa.me/+77072192240">
                         +7 707 219 2240
                     </a>
                 </div>
                 <div class="footer__info_item">
-                    <a href="mirzakulovoralbai@gmail.com">
-                        mirzakulovoralbai@gmail.com
+                    <a href="mailto:tizginportaly@mail.ru">
+                        tizginportaly@mail.ru
                     </a>
                 </div>
                 <div class="footer__info_item">
@@ -188,6 +188,11 @@
                 2022 © tizgin.kz ақпараттық-сараптамалық порталы
             </div>
             <div class="footer__media media">
+                <div class="media__item">
+                    <!-- Yandex.Metrika informer -->
+                    <a href="https://metrika.yandex.ru/stat/?id=88745247&amp;from=informer" target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/88745247/3_1_FFFFFFFF_EFEFEFFF_0_pageviews" style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" class="ym-advanced-informer" data-cid="88745247" data-lang="ru" /></a>
+                    <!-- /Yandex.Metrika informer -->
+                </div>
                 <div class="media__item">
                     <!-- ZERO.kz -->
                     <span id="_zero_73766">

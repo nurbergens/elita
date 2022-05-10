@@ -674,6 +674,12 @@ section {
     font-size: 15px;
     opacity: 0.8;
   }
+
+    &__text {
+        max-width: 400px;
+        font-size: 12px;
+        line-height: 1.1em;
+    }
 }
 
 .media {
@@ -681,7 +687,7 @@ section {
   align-items: center;
 
   &__item {
-    margin-right: 15px;
+    margin-right: 5px;
   }
 }
 

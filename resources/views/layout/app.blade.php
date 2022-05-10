@@ -143,38 +143,89 @@
 <footer class="footer" id="footer">
     <div class="container">
         <div class="footer__row">
-            <div class="footer__logo">
-                Logo
-            </div>
-            <ul class="footer__menu nav__menu d-flex">
-                <li>
-                    <a href="#" class="nav__link">
-                        Редакция
+            <div class="footer__info">
+                <div class="footer__info_item">
+                    <a href="wa.me/+77072192240">
+                        +7 707 219 2240
                     </a>
-                </li>
-                <li>
-                    <a href="{{ route('about') }}" class="nav__link">
-                        Компания туралы
+                </div>
+                <div class="footer__info_item">
+                    <a href="mirzakulovoralbai@gmail.com">
+                        mirzakulovoralbai@gmail.com
                     </a>
-                </li>
-                <li>
-                    <a href="#" class="nav__link">
+                </div>
+                <div class="footer__info_item">
+                    <a href="#">
                         Жарнама
                     </a>
-                </li>
-            </ul>
+                </div>
+            </div>
+            <div class="footer__text">
+                Сайттағы материалдарды пайдаланғанда міндетті түрде сілтеме берулеріңізді сұраймыз. Ақпараттық порталдағы авторлық және басқа да құқықтар толығымен қорғалатынын ескертеміз.
+                Автордың жеке пікірі редакцияның көзқарасы болып саналмайды.
+                Жарнама мен түрлі хабарландыруларға жарнама беруші жауапты.
+            </div>
+{{--            <ul class="footer__menu nav__menu d-flex">--}}
+{{--                <li>--}}
+{{--                    <a href="#" class="nav__link">--}}
+{{--                        Редакция--}}
+{{--                    </a>--}}
+{{--                </li>--}}
+{{--                <li>--}}
+{{--                    <a href="{{ route('about') }}" class="nav__link">--}}
+{{--                        Компания туралы--}}
+{{--                    </a>--}}
+{{--                </li>--}}
+{{--                <li>--}}
+{{--                    <a href="#" class="nav__link">--}}
+{{--                        Жарнама--}}
+{{--                    </a>--}}
+{{--                </li>--}}
+{{--            </ul>--}}
         </div>
         <div class="footer__row">
             <div class="footer__credits">
                 2022 © tizgin.kz ақпараттық-сараптамалық порталы
             </div>
             <div class="footer__media media">
-                <a href="#" class="media__item">
-                    <img src="{{ @asset('img/in.svg')}}" alt="in" class="media__logo">
-                </a>
-                <a href="#" class="media__item">
-                    <img src="{{ @asset('img/fb.svg')}}" alt="facebook" class="media__logo">
-                </a>
+                <div class="media__item">
+                    <!-- ZERO.kz -->
+                    <span id="_zero_73766">
+                  <noscript>
+                    <a href="http://zero.kz/?s=73766" target="_blank">
+                      <img src="http://c.zero.kz/z.png?u=73766" width="88" height="31" alt="ZERO.kz" />
+                    </a>
+                  </noscript>
+                </span>
+                    <script type="text/javascript">
+                        var _zero_kz_ = _zero_kz_ || [];
+                        _zero_kz_.push(["id", 73766]);
+                        // Цвет кнопки
+                        _zero_kz_.push(["type", 1]);
+                        // Проверять url каждые 200 мс, при изменении перегружать код счётчика
+                        // _zero_kz_.push(["url_watcher", 200]);
+
+                        (function () {
+                            var a = document.getElementsByTagName("script")[0],
+                                s = document.createElement("script");
+                            s.type = "text/javascript";
+                            s.async = true;
+                            s.src = (document.location.protocol == "https:" ? "https:" : "http:")
+                                + "//c.zero.kz/z.js";
+                            a.parentNode.insertBefore(s, a);
+                        })(); //-->
+                    </script>
+                    <!-- End ZERO.kz -->
+                </div>
+                <div class="media__item">
+                    <!--LiveInternet counter-->
+                    <a href="https://www.liveinternet.ru/click" target="_blank"><img id="licnt5DDF" width="88" height="31" style="border:0" title="LiveInternet: показано число просмотров за 24 часа, посетителей за 24 часа и за сегодня" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7" alt=""/></a><script>(function(d,s){d.getElementById("licnt5DDF").src=
+                            "https://counter.yadro.ru/hit?t11.6;r"+escape(d.referrer)+
+                            ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+                                (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+                            ";h"+escape(d.title.substring(0,150))+";"+Math.random()})
+                        (document,screen)</script><!--/LiveInternet-->
+                </div>
             </div>
         </div>
     </div>

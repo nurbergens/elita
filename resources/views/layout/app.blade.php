@@ -8,7 +8,7 @@
     <title>Tizgin.kz</title>
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Tizgin.kz">
-    <meta property="og:title" content="Tizgin.kz">
+    <meta property="og:title" content="@yield('metatitle', 'Tizgin.kz')">
     <meta property="og:description" content="Tizgin.kz ақпараттық порталы">
     <meta property="og:url" content="">
     <meta property="og:locale" content="ru_RU">

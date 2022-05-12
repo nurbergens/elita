@@ -1,6 +1,5 @@
 @extends('layout.app')
 
-
 @section('content')
 
     <section class="offer" id="offer">
@@ -83,6 +82,7 @@
                     </a>
                     <div class="news__wrap">
                         @foreach($category->news as $news_item)
+                            @if($loop->index < 3)
                             <a href="{{ route('news.show', $news_item->id) }}" class="news__item">
                                 <img src="{{ $news_item->preview_image }}" alt="news" class="news__img">
                                 <div class="news__bottom">
@@ -102,6 +102,7 @@
                                     </p>
                                 </div>
                             </a>
+                            @endif
                         @endforeach
                     </div>
                 </div>

@@ -144,5 +144,17 @@
     .news-item .offer__slider .slick-slide {
         height: 200px;
     }
+    .footer {
+        &__row {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        &__text {
+            margin-top: 15px;
+        }
+        &__media {
+            margin-top: 10px;
+        }
+    }
 
 }

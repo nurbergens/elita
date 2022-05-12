@@ -133,6 +133,17 @@
   .news-item .offer__slider .slick-slide {
     height: 200px;
   }
+
+  .footer__row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer__text {
+    margin-top: 15px;
+  }
+  .footer__media {
+    margin-top: 10px;
+  }
 }
 
 /*# sourceMappingURL=media.css.map */

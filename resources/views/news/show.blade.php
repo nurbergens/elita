@@ -1,5 +1,6 @@
 @extends('layout.app')
 
+@section('metatitle', $news->title)
 @section('content')
     <section class="offer news-item" id="news-item">
         <div class="container">

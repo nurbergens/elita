@@ -37,6 +37,20 @@
         padding-top: 30px;
     }
     .nav {
+        &__logo {
+            width: 18px;
+            display: none;
+
+            &_full {
+                display: block;
+            }
+        }
+        &__heading {
+            display: none;
+        }
+        &__dummy {
+            width: 27px;
+        }
         &__company {
             padding: 20px 0;
             border: none;

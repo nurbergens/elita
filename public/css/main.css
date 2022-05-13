@@ -146,8 +146,16 @@ section {
   filter: drop-shadow(2px 3px 5px rgba(40, 50, 78, 0.2));
 }
 .nav__logo {
+  width: 25px;
   margin-right: 16px;
   margin-bottom: 4px;
+}
+.nav__logo_full {
+  width: 110px;
+  display: none;
+}
+.nav__dummy {
+  width: 0px;
 }
 .nav__wrap {
   width: 100%;

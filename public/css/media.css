@@ -30,6 +30,19 @@
     padding-top: 30px;
   }
 
+  .nav__logo {
+    width: 18px;
+    display: none;
+  }
+  .nav__logo_full {
+    display: block;
+  }
+  .nav__heading {
+    display: none;
+  }
+  .nav__dummy {
+    width: 27px;
+  }
   .nav__company {
     padding: 20px 0;
     border: none;

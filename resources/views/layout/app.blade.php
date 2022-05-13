@@ -93,7 +93,7 @@
 <header class="nav" id="nav">
     <div class="container">
         <div class="nav__wrapper d-flex align-items-center">
-{{--            <img src="{{ @asset( 'img/logo.png')}}" alt="Logo" class="nav__logo">--}}
+            <img src="{{ @asset( 'img/logo.svg')}}" alt="Logo" class="nav__logo">
             <div class="nav__wrap">
                 <div class="nav__company">
                     <div>
@@ -104,10 +104,11 @@
                             <span class="ham__item"></span>
                         </div>
                     </div>
-                    <span>
+                    <img src="{{ @asset( 'img/logo-full.svg')}}" alt="Logo" class="nav__logo_full">
+                    <span class="nav__heading">
                         Tizgin.kz ақпараттық порталы
                     </span>
-                    <div></div>
+                    <div class="nav__dummy"></div>
                 </div>
                 <div class="nav__controls d-none d-lg-flex">
                     <div class="nav__menu d-flex">

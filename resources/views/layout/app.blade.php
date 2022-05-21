@@ -207,6 +207,23 @@
             <div class="footer__credits">
                 2022 © tizgin.kz ақпараттық-сараптамалық порталы
             </div>
+            <div class="footer__socials socials">
+                <a href="https://www.facebook.com/112113348165842/posts/pfbid0zabTWEBzbiFkqy6eHB3NVXTSoZesTbuN3gKLTSvTXLnmMNNB78d7pash7EjZyPN5l" class="socials__social" target="_blank">
+                    <img src="{{ @asset('img/icons/facebook.png') }}" alt="" class="socials__icon">
+                </a>
+                <a href="https://www.youtube.com/channel/UC4VVTaA7b8MbhltXaMs22_A" class="socials__social" target="_blank">
+                    <img src="{{ @asset('img/icons/youtube.png') }}" alt="" class="socials__icon">
+                </a>
+                <a href="https://www.instagram.com/tizgin.kz" class="socials__social" target="_blank">
+                    <img src="{{ @asset('img/icons/instagram.png') }}" alt="" class="socials__icon">
+                </a>
+                <a href="https://vk.com/club213382634" class="socials__social" target="_blank">
+                    <img src="{{ @asset('img/icons/vk.png') }}" alt="" class="socials__icon">
+                </a>
+                <a href="https://vt.tiktok.com/ZSdC43k5C/" class="socials__social" target="_blank">
+                    <img src="{{ @asset('img/icons/tik-tok.png') }}" alt="" class="socials__icon">
+                </a>
+            </div>
             <div class="footer__media media">
                 <div class="media__item">
                     <!-- Yandex.Metrika informer -->

@@ -170,8 +170,17 @@
         &__text {
             margin-top: 15px;
         }
+        &__credits {
+            width: 100%;
+        }
+        &__socials {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
         &__media {
             margin-top: 10px;
+            width: 100%;
+            justify-content: flex-start;
         }
     }
 

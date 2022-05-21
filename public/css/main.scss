@@ -687,8 +687,9 @@ section {
   }
 
   &__credits {
-    font-size: 15px;
-    opacity: 0.8;
+      font-size: 15px;
+      opacity: 0.8;
+      width: 370px;
   }
 
     &__text {
@@ -704,9 +705,24 @@ section {
     }
 }
 
+.socials {
+    display: flex;
+    align-items: center;
+
+    &__social {
+        margin: 0 3px;
+    }
+    &__icon {
+        width: 32px;
+        height: 32px;
+    }
+}
+
 .media {
-  display: flex;
-  align-items: center;
+    width: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 
   &__item {
     margin-right: 5px;

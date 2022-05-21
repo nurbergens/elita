@@ -157,8 +157,17 @@
   .footer__text {
     margin-top: 15px;
   }
+  .footer__credits {
+    width: 100%;
+  }
+  .footer__socials {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
   .footer__media {
     margin-top: 10px;
+    width: 100%;
+    justify-content: flex-start;
   }
 }
 

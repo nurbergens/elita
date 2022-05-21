@@ -554,6 +554,7 @@ section {
 .footer__credits {
   font-size: 15px;
   opacity: 0.8;
+  width: 370px;
 }
 .footer__text {
   max-width: 400px;
@@ -564,9 +565,23 @@ section {
   margin-bottom: 5px;
 }
 
-.media {
+.socials {
   display: flex;
   align-items: center;
+}
+.socials__social {
+  margin: 0 3px;
+}
+.socials__icon {
+  width: 32px;
+  height: 32px;
+}
+
+.media {
+  width: 370px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 .media__item {
   margin-right: 5px;

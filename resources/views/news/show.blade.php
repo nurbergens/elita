@@ -1,6 +1,9 @@
 @extends('layout.app')
 
+@section('title', $news->title . ' | Tizgin.kz')
 @section('metatitle', $news->title)
+@section('metadescription', $news->description)
+@section('metaimage', asset($news->preview_image))
 @section('content')
     <section class="offer news-item" id="news-item">
         <div class="container">

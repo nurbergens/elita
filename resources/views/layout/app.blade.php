@@ -1,20 +1,28 @@
 <!doctype html>
-<html lang="ru">
+<html lang="kk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tizgin.kz</title>
+    <title>@yield('title', '"Тізгін" ақпараттық порталы')</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ @asset('img/favicon/apple-touch-icon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ @asset('img/favicon/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ @asset('img/favicon/favicon-16x16.png') }}">
+    <link rel="manifest" href="{{ @asset('img/favicon/site.webmanifest') }}">
+    <link rel="mask-icon" href="{{ @asset('img/favicon/safari-pinned-tab.svg') }}" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Tizgin.kz">
     <meta property="og:title" content="@yield('metatitle', 'Tizgin.kz')">
-    <meta property="og:description" content="Tizgin.kz ақпараттық порталы">
+    <meta property="og:description" content="@yield('metadescription','Tizgin.kz ақпараттық порталы')">
     <meta property="og:url" content="">
     <meta property="og:locale" content="ru_RU">
-    <meta property="og:image" content="img/header-bg.jpg">
-    <meta property="og:image:width" content="968">
-    <meta property="og:image:height" content="504">
+    <meta property="og:image" content="@yield('metaimage',asset($categories[0]->news[0]->preview_image))">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="720">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">

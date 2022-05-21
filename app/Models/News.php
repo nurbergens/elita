@@ -44,7 +44,7 @@ class News extends Model
 //    }
 
     public function scopeCurrent($query) {
-        $query->where('publication_date', '<',now());
+        $query->where('publication_date', '<',now())->orderBy('publication_date','desc');
     }
 
     public function category() {

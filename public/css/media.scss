@@ -47,6 +47,10 @@
         }
         &__heading {
             display: none;
+
+            &.mobile {
+                display: block;
+            }
         }
         &__dummy {
             width: 27px;

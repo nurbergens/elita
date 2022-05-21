@@ -30,6 +30,15 @@
     <link rel="stylesheet" href=" {{ @asset('css/app.css') }} ">
     <link rel="stylesheet" href=" {{ @asset('css/main.css') }} ">
     <link rel="stylesheet" href=" {{ @asset('css/media.css') }} ">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XCW2D3S2T0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-XCW2D3S2T0');
+    </script>
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -112,10 +121,12 @@
                             <span class="ham__item"></span>
                         </div>
                     </div>
-                    <img src="{{ @asset( 'img/logo-full.svg')}}" alt="Logo" class="nav__logo_full">
-                    <span class="nav__heading">
+                    <a href="{{ route('main.index') }}" class="nav__heading mobile">
+                        <img src="{{ @asset( 'img/logo-full.svg')}}" alt="Logo" class="nav__logo_full">
+                    </a>
+                    <a href="{{ route('main.index') }}" class="nav__heading">
                         Tizgin.kz ақпараттық порталы
-                    </span>
+                    </a>
                     <div class="nav__dummy"></div>
                 </div>
                 <div class="nav__controls d-none d-lg-flex">

@@ -222,7 +222,7 @@ section {
       align-items: center;
       justify-content: space-between;
 
-      span {
+      a {
           color: #fff;
           font-size: 25px;
       }
@@ -237,6 +237,12 @@ section {
     &__menu {
         padding: 8px 0;
         flex-wrap: wrap;
+    }
+
+    &__heading {
+        &.mobile {
+            display: none;
+        }
     }
 
   &__link {
@@ -254,7 +260,7 @@ section {
       }
 
     &:hover {
-      color: #fff;
+      color: $accent;
     }
   }
 

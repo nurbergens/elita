@@ -40,6 +40,9 @@
   .nav__heading {
     display: none;
   }
+  .nav__heading.mobile {
+    display: block;
+  }
   .nav__dummy {
     width: 27px;
   }

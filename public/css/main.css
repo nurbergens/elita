@@ -168,7 +168,7 @@ section {
   align-items: center;
   justify-content: space-between;
 }
-.nav__company span {
+.nav__company a {
   color: #fff;
   font-size: 25px;
 }
@@ -180,6 +180,9 @@ section {
 .nav__menu {
   padding: 8px 0;
   flex-wrap: wrap;
+}
+.nav__heading.mobile {
+  display: none;
 }
 .nav__link {
   color: #fff;
@@ -195,7 +198,7 @@ section {
   margin-left: 0;
 }
 .nav__link:hover {
-  color: #fff;
+  color: #fca311;
 }
 .nav__arrow {
   transition: 0.3s ease;

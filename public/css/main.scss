@@ -299,6 +299,7 @@ section {
     display: flex;
     align-items: center;
     margin-left: 15px;
+    margin-bottom: 3px;
 
     &__icon {
         height: 18px;
@@ -307,7 +308,6 @@ section {
         line-height: 18px;
         color: #000;
         margin-left: 5px;
-        margin-bottom: 3px;
     }
 }
 
@@ -713,13 +713,15 @@ section {
     &__text {
         max-width: 400px;
         font-size: 12px;
-        line-height: 1.1em;
+        line-height: 1.2em;
     }
 
     &__info {
         width: 370px;
         &_item {
             margin-bottom: 5px;
+            font-size: 12px;
+            line-height: 1.2em;
         }
     }
 }

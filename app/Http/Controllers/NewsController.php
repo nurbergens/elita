@@ -18,11 +18,11 @@ class NewsController extends Controller
         $categories = Category::where('order','!=', 0)->where('visibility',true)->orderBy('order')->get();
         $latestNews = News::current()->latest()->take(30)->get();
         $relatedNews = News::current()->where('id','!=',$news->id)->take(3)->get();
+        $news->incrementReadCount();
 
-        if(Cookie::get($news->id) == null) {
-            Cookie::queue(Cookie::make($news->id, 'value', 1));
-            $news->incrementReadCount();
-        }
+//        if(Cookie::get($news->id) == null) {
+//            Cookie::queue(Cookie::make($news->id, 'value', 1));
+//        }
 
         return view('news.show', compact('news','categories','relatedNews','latestNews'));
     }

@@ -17,7 +17,7 @@ class NewsListScreen extends Screen
     public function query(): iterable
     {
         return [
-            'news' => News::withoutGlobalScope('current')->filters()->defaultSort('id')->paginate()
+            'news' => News::withoutGlobalScope('current')->filters()->defaultSort('publication_date')->paginate()
         ];
     }
 

@@ -26,7 +26,7 @@
                             {{ $news->title }}
                         </h2>
                         <div class="date">
-                            {{ $news->publication_date->format('H:i d.m.Y') }}
+                            {{ $news->publication_date->translatedFormat('d F, Y') }}
 
                             <div class="shows">
                                 <img src="{{ @asset('img/icons/eye_icon.svg') }}" alt="" class="shows__icon">

@@ -55,7 +55,7 @@
                         <img src="{{ $news_item->preview_image }}" alt="news" class="news__img">
                         <div class="news__bottom">
                             <h3 class="news__name">
-                                <span class="date">{{ $news_item->publication_date->format('d.m.Y') }}</span>
+                                <span class="date">{{ $news_item->publication_date->translatedFormat('d F, Y') }}</span>
                                 {{ $news_item->title }}
                                 <div class="tags">
                                     @foreach($news_item->tags as $tag)
@@ -89,7 +89,7 @@
                                 <img src="{{ $news_item->preview_image }}" alt="news" class="news__img">
                                 <div class="news__bottom">
                                     <h3 class="news__name">
-                                        <span class="date">{{ $news_item->publication_date->format('d.m.Y') }}</span>
+                                        <span class="date">{{ $news_item->publication_date->translatedFormat('d F, Y') }}</span>
                                         {{ $news_item->title }}
                                         <div class="tags">
                                             @foreach($news_item->tags as $tag)

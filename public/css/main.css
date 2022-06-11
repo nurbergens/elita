@@ -230,6 +230,7 @@ section {
   display: flex;
   align-items: center;
   margin-left: 15px;
+  margin-bottom: 3px;
 }
 .shows__icon {
   height: 18px;
@@ -238,7 +239,6 @@ section {
   line-height: 18px;
   color: #000;
   margin-left: 5px;
-  margin-bottom: 3px;
 }
 
 .ham {
@@ -576,13 +576,15 @@ section {
 .footer__text {
   max-width: 400px;
   font-size: 12px;
-  line-height: 1.1em;
+  line-height: 1.2em;
 }
 .footer__info {
   width: 370px;
 }
 .footer__info_item {
   margin-bottom: 5px;
+  font-size: 12px;
+  line-height: 1.2em;
 }
 
 .socials {

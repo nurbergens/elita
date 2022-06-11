@@ -27,6 +27,6 @@ class AppServiceProvider extends ServiceProvider
     {
 
         Paginator::useBootstrap();
-        Carbon::setLocale('ru_RU');
+        Carbon::setLocale('kk_KK');
     }
 }

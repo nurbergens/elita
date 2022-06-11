@@ -163,7 +163,7 @@
 <footer class="footer" id="footer">
     <div class="container">
         <div class="footer__row">
-            <div class="footer__credits">
+            <div class="footer__text">
                 2022 жылы ҚР Ақпарат және қоғамдық даму министрлігі, ақпарат комитетіне KZ87VPY00050358 нөмірімен тіркеліп, «Tizgin.kz» желілік басылым куәлігін алған.
             </div>
             <div class="footer__text">

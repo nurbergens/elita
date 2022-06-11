@@ -163,22 +163,8 @@
 <footer class="footer" id="footer">
     <div class="container">
         <div class="footer__row">
-            <div class="footer__info">
-                <div class="footer__info_item">
-                    <a href="https://wa.me/+77072192240">
-                        +7 707 219 2240
-                    </a>
-                </div>
-                <div class="footer__info_item">
-                    <a href="mailto:tizginportaly@mail.ru">
-                        tizginportaly@mail.ru
-                    </a>
-                </div>
-                <div class="footer__info_item">
-                    <a href="#">
-                        Жарнама
-                    </a>
-                </div>
+            <div class="footer__credits">
+                2022 жылы ҚР Ақпарат және қоғамдық даму министрлігі, ақпарат комитетіне KZ87VPY00050358 нөмірімен тіркеліп, «Tizgin.kz» желілік басылым куәлігін алған.
             </div>
             <div class="footer__text">
                 Сайттағы материалдарды пайдаланғанда міндетті түрде сілтеме берулеріңізді сұраймыз. Ақпараттық порталдағы авторлық және басқа да құқықтар толығымен қорғалатынын ескертеміз.
@@ -204,8 +190,22 @@
 {{--            </ul>--}}
         </div>
         <div class="footer__row">
-            <div class="footer__credits">
-                2022 © tizgin.kz ақпараттық-сараптамалық порталы
+            <div class="footer__info">
+                <div class="footer__info_item">
+                    <a href="https://wa.me/+77072192240">
+                        +7 707 219 2240
+                    </a>
+                </div>
+                <div class="footer__info_item">
+                    <a href="mailto:tizginportaly@mail.ru">
+                        tizginportaly@mail.ru
+                    </a>
+                </div>
+                <div class="footer__info_item">
+                    <a href="#">
+                        Жарнама
+                    </a>
+                </div>
             </div>
             <div class="footer__socials socials">
                 <a href="https://www.facebook.com/112113348165842/posts/pfbid0zabTWEBzbiFkqy6eHB3NVXTSoZesTbuN3gKLTSvTXLnmMNNB78d7pash7EjZyPN5l" class="socials__social" target="_blank">

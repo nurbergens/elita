@@ -252,6 +252,7 @@ section {
     display: block;
     padding: 5px 10px;
     margin-left: 25px;
+      text-transform: uppercase;
       letter-spacing: initial;
       white-space: nowrap;
 
@@ -292,6 +293,22 @@ section {
       margin-bottom: 3px;
     }
   }
+}
+
+.shows {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+
+    &__icon {
+        height: 18px;
+    }
+    span {
+        line-height: 18px;
+        color: #000;
+        margin-left: 5px;
+        margin-bottom: 3px;
+    }
 }
 
 .ham {
@@ -417,8 +434,9 @@ section {
 
 .date {
   color: $accent;
-  display: inline;
   font-weight: 600;
+    display: flex;
+    align-items: center;
 }
 
 .tags {
@@ -699,6 +717,7 @@ section {
     }
 
     &__info {
+        width: 370px;
         &_item {
             margin-bottom: 5px;
         }
@@ -792,6 +811,7 @@ section {
             left: 0;
             background: #e4e4e4;
             padding: 2px 10px;
+            opacity: 0.8;
         }
     }
 

@@ -45,11 +45,12 @@
     </section>
     <section class="news accented" id="main-news">
         <div class="container">
-            <a href="#" class="news__title">
-                Бас тақырып
-            </a>
+{{--            <a href="#" class="news__title">--}}
+{{--                Бас тақырып--}}
+{{--            </a>--}}
             <div class="news__wrap">
-                @foreach($mainNews as $news_item)
+                @foreach($mainNews as $key => $news_item)
+                    @if($key > 0)
                     <a href="{{ route('news.show', $news_item->id) }}" class="news__item">
                         <img src="{{ $news_item->preview_image }}" alt="news" class="news__img">
                         <div class="news__bottom">
@@ -69,6 +70,7 @@
                             </p>
                         </div>
                     </a>
+                    @endif
                 @endforeach
             </div>
         </div>

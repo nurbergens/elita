@@ -191,6 +191,7 @@ section {
   display: block;
   padding: 5px 10px;
   margin-left: 25px;
+  text-transform: uppercase;
   letter-spacing: initial;
   white-space: nowrap;
 }
@@ -222,6 +223,21 @@ section {
   color: #808080;
 }
 .nav__login .nav__user {
+  margin-bottom: 3px;
+}
+
+.shows {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+.shows__icon {
+  height: 18px;
+}
+.shows span {
+  line-height: 18px;
+  color: #000;
+  margin-left: 5px;
   margin-bottom: 3px;
 }
 
@@ -326,8 +342,9 @@ section {
 
 .date {
   color: #fca311;
-  display: inline;
   font-weight: 600;
+  display: flex;
+  align-items: center;
 }
 
 .tags form {
@@ -561,6 +578,9 @@ section {
   font-size: 12px;
   line-height: 1.1em;
 }
+.footer__info {
+  width: 370px;
+}
 .footer__info_item {
   margin-bottom: 5px;
 }
@@ -637,6 +657,7 @@ section {
   left: 0;
   background: #e4e4e4;
   padding: 2px 10px;
+  opacity: 0.8;
 }
 .news-item__text p {
   margin-bottom: 0;

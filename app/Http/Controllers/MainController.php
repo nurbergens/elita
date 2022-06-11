@@ -15,7 +15,7 @@ class MainController extends Controller
             ->where('visibility',true)
             ->orderBy('order')
             ->get();
-        $mainNews = News::current()->where('is_main',true)->latest()->take(3)->get();
+        $mainNews = News::current()->where('is_main',true)->latest()->take(4)->get();
         $latestNews = News::current()->latest()->take(30)->get();
 
         return view('index', compact('categories','mainNews','latestNews'));

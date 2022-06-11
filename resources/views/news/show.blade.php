@@ -26,9 +26,14 @@
                             {{ $news->title }}
                         </h2>
                         <div class="date">
-                            {{ $news->publication_date->format('d.m.Y H:i') }}
+                            {{ $news->publication_date->format('H:i d.m.Y') }}
+
+                            <div class="shows">
+                                <img src="{{ @asset('img/icons/eye_icon.svg') }}" alt="" class="shows__icon">
+                                <span>{{ $news->reads }}</span>
+                            </div>
                         </div>
-                        <br><br>
+                        <br>
 
                         <div class="offer__slider">
                             <div>

@@ -17,7 +17,7 @@ class NewsListScreen extends Screen
     public function query(): iterable
     {
         return [
-            'news' => News::withoutGlobalScope('current')->filters()->defaultSort('publication_date')->paginate()
+            'news' => News::withoutGlobalScope('current')->orderBy('publication_date','desc')->filters()->paginate()
         ];
     }
 
@@ -39,7 +39,7 @@ class NewsListScreen extends Screen
     public function commandBar(): iterable
     {
         return [
-            Link::make( __('Add'))
+            Link::make( __('Добавить'))
                 ->icon('pencil')
                 ->route('platform.news.edit')
         ];

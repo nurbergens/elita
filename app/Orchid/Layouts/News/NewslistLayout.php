@@ -28,33 +28,33 @@ class NewslistLayout extends Table
     protected function columns(): iterable
     {
         return [
-            TD::make('preview_image', 'Image')
+            TD::make('preview_image', ' Фото')
                 ->width('15%')
                 ->render(function ($model) {
                     return "<img src=' $model->preview_image' alt='image' class='img-fluid'>";
                 }),
-            TD::make('title', 'Title')
+            TD::make('title', 'Заголовок')
                 ->width('20%')
                 ->sort()
                 ->filter(Input::make())
-                ->render(function (News $new) {
-                    return Link::make($new->title)
-                        ->route('platform.news.edit', $new);
+                ->render(function (News $news) {
+                    return Link::make($news->title)
+                        ->route('platform.news.edit', $news);
                 }),
-            TD::make('description', 'Description')
+            TD::make('description', 'Описание')
                 ->width('30%'),
-            TD::make('reads','Reads')
+            TD::make('reads','Просмотры')
                 ->sort(),
-            TD::make('is_main', 'Main News'),
-            TD::make('category', 'Category')
+            TD::make('is_main', 'Главная новость'),
+            TD::make('category', 'Категория')
                 ->render(function ($model){
                     return $model->category->title;
                 }),
 
-            TD::make('created_at', 'Created')
+            TD::make('created_at', 'Дата создания')
                 ->sort()
                 ->render(function ($model) {
-                    return $model->updated_at->format('d.m.Y H:i:s');
+                    return $model->updated_at->format('d.m.Y H:i');
                 }),
         ];
     }

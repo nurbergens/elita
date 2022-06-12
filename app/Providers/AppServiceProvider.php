@@ -5,6 +5,7 @@ namespace App\Providers;
 use Carbon\Carbon;
 use Illuminate\Pagination\Paginator;
 use Illuminate\Support\ServiceProvider;
+use Orchid\Platform\Dashboard;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -23,9 +24,9 @@ class AppServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function boot()
+    public function boot(Dashboard $dashboard)
     {
-
+        $dashboard->registerResource('stylesheets', asset('css/custom.css'));
         Paginator::useBootstrap();
         Carbon::setLocale('kk_KK');
     }

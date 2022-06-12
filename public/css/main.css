@@ -231,6 +231,7 @@ section {
   align-items: center;
   margin-left: 15px;
   margin-bottom: 3px;
+  margin-right: 10px;
 }
 .shows__icon {
   height: 18px;
@@ -238,7 +239,7 @@ section {
 .shows span {
   line-height: 18px;
   color: #000;
-  margin-left: 5px;
+  margin-left: 8px;
 }
 
 .ham {
@@ -345,6 +346,7 @@ section {
   font-weight: 600;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .tags form {

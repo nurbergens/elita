@@ -73,17 +73,17 @@ class NewsEditScreen extends Screen
     public function commandBar(): iterable
     {
         return [
-            Button::make('Create')
+            Button::make('Создать')
                 ->icon('pencil')
                 ->method('createOrUpdate')
                 ->canSee(!$this->exists),
 
-            Button::make('Update')
+            Button::make('Обновить')
                 ->icon('note')
                 ->method('createOrUpdate')
                 ->canSee($this->exists),
 
-            Button::make('Remove')
+            Button::make('Удалить')
                 ->icon('trash')
                 ->method('remove')
                 ->canSee($this->exists),
